@@ -9,16 +9,15 @@
 
 int main(void)
 {
-	char letter;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	int digit = 0;
 
+	while (digit <= 9)
 	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
+		printf("%i", digit);
+		digit++;
 	}
-
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
